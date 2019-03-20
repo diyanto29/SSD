@@ -65,3 +65,93 @@
 <li>Setiap penjual mempunyai username dan password yang diberikan oleh admin.</li>
 </ol>
 <p>Tersedia sarana koneksi ke internet, sarana jaringan komputer, dan sarana penunjang lainnya.</p>
+<ol start="3">
+<li><strong>SOFTWARE DESIGN</strong></li>
+</ol>
+<p><strong>&nbsp;</strong></p>
+<ul>
+<li><strong>Kebutuhan Fungsional</strong></li>
+</ul>
+<p>Kebutuhan fungsional (Functional Requirements) ini adalah kebutuhan utama yang diharapkan dari system ini, yang terkait langsung dengan system ini. Kebutuhan fungsional dari system ini adalah sebagai berikut :</p>
+<ul>
+<li>Pencatatan laporan penjualan</li>
+<li>Manajemen produk olahan mangga</li>
+<li>Transaksi</li>
+<li></li>
+<li></li>
+<li></li>
+</ul>
+<p>&nbsp;</p>
+<ul>
+<li>Spesifikasi yang diharapkan dari laporan penjualan</li>
+</ul>
+<ul>
+<li>System dapat menampilkan penjualan hari ini</li>
+<li>System dapat menampilkan laporan penjualan dalam periode waktu tertentu</li>
+</ul>
+<p>&nbsp;</p>
+<ul>
+<li>Spesifikasi yang diharapkan pada Manajemen produk olahan mangga</li>
+</ul>
+<ul>
+<li>Sistem harus dapat menghapus, dan menambah Manajemen produk olahan mangga</li>
+<li>Sistem dapat menampilkan produk olahan mangga &nbsp;yang masih tersedia</li>
+</ul>
+<p>&nbsp;</p>
+<ul>
+<li>Transaksi</li>
+</ul>
+<ul>
+<li>Sistem harus dapat menghitung harga yang harus dibayar konsumen</li>
+<li>System dapat menampilkan uang kembalian pelanggan secara otomatis</li>
+<li>System harus dapat menghitung data pesanan</li>
+</ul>
+<p>&nbsp;</p>
+<ul>
+<li><strong>Kebutuhan Non Fungsional</strong></li>
+</ul>
+<p>Kebutuhan yang mendukung kelancaran system ini didefnisikan sebagai berikut:</p>
+<ul>
+<li>Availability: online selama caf&eacute; buka, dengan asumsi koneksi internet dan jaringan berjalan normal</li>
+<li>Reliability: system data reliabel berhubungan dengan stok produk olahan mangga dan juga reliabel berhubungan dengan laporan penjualan</li>
+<li>Ergonomy: user friendly dengan memperhatikan hal yang berhubungan dengan Human Computer Interaction</li>
+<li>Portability: dapat diakses dari mobile untuk beli serta diakses dari web mengenai transaksi dan laporan</li>
+<li>Memory : minimum memory untuk server aplikasi 4 Gb</li>
+<li>Response time: tidak terukur</li>
+<li>Security: login dan validasi password</li>
+</ul>
+<p>&nbsp;</p>
+<ul>
+<li><strong>Kebutuhan Antarmuka (interface)</strong></li>
+</ul>
+<p>Antarmuka dalam penerapan aplikasi Mangoline dibagi menjadi dua, yaitu:</p>
+<ol>
+<li>Hardware Interface : adalah kebutuhan perangkat keras yang harus dipenuhi untuk implementasi system aplikasi Mangoline:</li>
+</ol>
+<ul>
+<li>Mobile</li>
+<li>Website</li>
+</ul>
+<ol start="2">
+<li>Software Interface : kebutuhan software untuk implementasi system aplikasi Mangoline:</li>
+</ol>
+<ul>
+<li>Apache</li>
+<li>PHP</li>
+<li>MYSQL</li>
+</ul>
+<p>&nbsp;</p>
+<ul>
+<li><strong>Lingkungan Operasi</strong></li>
+</ul>
+<p>Aplikasi aka berfungsi dengan lingkungan operasi sebagai berikut:</p>
+<ul>
+<li>Sistem Operasi : Windows dan android</li>
+<li>DBMS : Berbasis SQL</li>
+<li>Pemrograman : PHP, HTML, dan Java</li>
+</ul>
+<p>&nbsp;</p>
+<ul>
+<li><strong>Batasan Perancangan</strong></li>
+</ul>
+<p>Perancangan system aplikasi Mangolineini adalah berbasis web untuk admin dan kasirnya sedangan untuk pelayan berbasis mobile. Dan Bahasa pemrograman yang digunakan adalah PHP,HTML dan Java.</p>
